@@ -1,0 +1,16 @@
+@mixin transition($s) {
+    -webkit-transition: $s;
+    -o-transition: $s;
+    transition: $s;
+}
+
+@mixin flexAllCenter() {
+	-webkit-flex: flex;
+	-moz-flex: flex;
+	-ms-flex: flex;
+	-o-flex: flex;
+	flex: flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

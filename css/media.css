@@ -1,0 +1,82 @@
+@media screen and (max-width: 1100px) {
+
+	#page {
+		background: #f1f2f2;
+	}
+
+}
+
+@media screen and (max-width: 995px) {
+
+	#page {
+		padding-bottom: 20px;
+	}
+	#page .product-info,
+	#page .product-form {
+		float: none;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+
+	#page .product-info .product-box .buttons {
+		padding-left: 20px;
+	}
+	#page .product-picture {
+		width: 30%;
+	}
+	span.pad {
+		width: 0;
+	}
+	h1 {
+		margin-left: 0 !important;
+	}
+}
+
+@media screen and (max-width: 550px) {
+
+	#page .product-info .product-box .buttons {
+		text-align: left;
+	}
+	#page .product-info .product-box .bottom-ask {
+		max-width: 100%;
+	}
+	#page .product-form {
+		max-width: 86%;
+	}
+
+}
+
+@media screen and (max-width: 490px) {
+
+	#page .product-info h1 {
+		font-size: 32px;
+		text-align: center;
+	}
+	header {
+	    margin-bottom: -90px;
+	}
+	#page .product-info .product-box {
+		margin-top: 30px;
+		text-align: center;
+	}
+	#page .product-info .product-box .advantages .item {
+		text-align: left;
+	}
+	#page .product-info .product-picture {
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 20%;
+	}
+	#page .product-info .product-box .product-picture, 
+	#page .product-info .product-box .advantages {
+		display: block;
+	}
+	#page .product-info .product-box .advantages {
+	    max-width: 300px;
+	    margin: 0 auto;
+	    padding-left: 0;
+	}
+}
